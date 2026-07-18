@@ -1,0 +1,59 @@
+.hero {
+  position: relative;
+  padding-top: calc(var(--space-section) + 4rem);
+  border-bottom: 1px solid var(--color-line);
+  overflow: hidden;
+}
+
+.hero__inner { max-width: 720px; }
+
+.hero__title {
+  font-size: var(--fs-hero);
+  margin-bottom: 1.5rem;
+}
+.hero__title-accent {
+  color: var(--color-accent);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.hero__subtitle {
+  color: var(--color-graphite);
+  font-size: 1.1rem;
+  max-width: 42ch;
+  margin-bottom: 2.25rem;
+}
+
+.hero__cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+.btn {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  padding: 0.85rem 1.6rem;
+  border-radius: var(--radius);
+  transition: transform var(--transition), background var(--transition), color var(--transition), border-color var(--transition);
+  display: inline-block;
+}
+.btn--primary {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+.btn--primary:hover { transform: translateY(-2px); }
+.btn--ghost {
+  border: 1px solid var(--color-line-strong);
+  color: var(--color-paper);
+}
+.btn--ghost:hover { border-color: var(--color-accent); color: var(--color-accent); }
+
+/* signature: notebook margin rule down the left of the hero, like a sketchbook page */
+.hero__margin {
+  position: absolute;
+  left: 4vw;
+  top: 0; bottom: 0;
+  width: 1px;
+  background: var(--color-line-strong);
+  display: none;
+}
+@media (min-width: 1100px) {
+  .hero__margin { display: block; }
+}

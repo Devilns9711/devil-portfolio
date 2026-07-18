@@ -1,0 +1,23 @@
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.skills__group-title {
+  font-family: var(--font-mono);
+  font-size: var(--fs-small);
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.skills__list { list-style: none; }
+.skills__list li {
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--color-line);
+  color: var(--color-paper);
+}
+.skills__list li:first-child { border-top: none; }

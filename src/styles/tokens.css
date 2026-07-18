@@ -1,0 +1,42 @@
+/* ==========================================================================
+   DESIGN TOKENS — edit these to re-theme the entire site
+   Palette concept: "sketchbook at night" — warm ink black, graphite greys,
+   paper cream text, single burnt-sienna pencil-red accent.
+   ========================================================================== */
+:root {
+  /* Colors */
+  --color-bg:        #15140F;   /* page background, warm ink black */
+  --color-bg-alt:     #1E1C16;   /* card / panel background */
+  --color-bg-raised:  #262319;   /* hover / raised surface */
+  --color-paper:      #EDE6D6;   /* primary text, "paper" cream */
+  --color-graphite:   #948C7C;   /* secondary text */
+  --color-graphite-dim: #5C5749; /* tertiary text, faint labels */
+  --color-accent:     #C1440E;   /* burnt sienna — signature accent */
+  --color-accent-soft: rgba(193, 68, 14, 0.14);
+  --color-line:        rgba(237, 230, 214, 0.12); /* hairline dividers */
+  --color-line-strong:  rgba(237, 230, 214, 0.22);
+
+  /* Typography */
+  --font-display: 'Fraunces', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+
+  --fs-hero: clamp(2.75rem, 6vw, 5rem);
+  --fs-h2: clamp(2rem, 4vw, 3rem);
+  --fs-h3: clamp(1.25rem, 2vw, 1.5rem);
+  --fs-body: 1rem;
+  --fs-small: 0.85rem;
+  --fs-eyebrow: 0.8rem;
+
+  /* Layout */
+  --container-max: 1100px;
+  --space-section: clamp(4rem, 10vw, 8rem);
+  --space-lg: 2.5rem;
+  --space-md: 1.5rem;
+  --space-sm: 0.75rem;
+  --radius: 4px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: 0.25s var(--ease);
+}
