@@ -9,7 +9,7 @@ const projects = [
     stack: ['HTML', 'CSS', 'JS', 'Responsive'],
     github: 'https://github.com/Devilns9711/Portfolio.git',
     demo: '',
-    image: 'src/assets/images/portfolio.jpg',
+    image: '/images/portfolio.jpg',
   },
    {
     id: 'project-3',
@@ -20,7 +20,7 @@ const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/devilns9711/developers-emergency-kit.git',
     demo: '',
-    image: 'src/assets/images/devkit.jpg',
+    image: '/images/devkit.jpg',
   },
  
   {
@@ -32,7 +32,7 @@ const projects = [
     stack: ['Python', 'File Handling', 'Datetime','CLI (Command Line Interface)'],
     github: 'https://github.com/Devilns9711/FILE-MANAGEMENT-SYSTEM.git',
     demo: '',
-    image: 'src/assets/images/file-management-system.jpg',
+    image: '/images/File-Management-System.jpg',
   },
    {
     id: 'project-4',
@@ -43,7 +43,7 @@ const projects = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Gunjan9711/ResumeCraft.git',
     demo: 'https://resume-craft-one-chi.vercel.app/',
-    image: 'src/assets/images/resumecraft.jpg',
+    image: '/images/resumecraft.jpg',
   },
   
 ]

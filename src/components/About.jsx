@@ -10,7 +10,7 @@ function About() {
             {
               // <img src="src/assets/images/profile.jpg" alt="" srcset="" />
             }
-            <div className="about__photo-placeholder"><img src="src/assets/images/profile.jpg" alt="" srcset="" /></div>
+            <div className="about__photo-placeholder"><img src="/images/profile.jpg" alt="" srcset="" /></div>
           </div>
           <div className="about__text">
             <h2>A bit about me</h2>
