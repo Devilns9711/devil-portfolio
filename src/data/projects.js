@@ -12,14 +12,14 @@ const projects = [
     image: '/images/portfolio.jpg',
   },
    {
-    id: 'project-3',
+    id: 'project-2',
     title: 'DevKit',
     tagline: 'Developer\'s Emergency Kit',
     description:
       'The Ultimate Toolkit Every Developer Needs. 8 essential tools, zero dependencies, lightning fast.',
     stack: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/devilns9711/developers-emergency-kit.git',
-    demo: '',
+    demo: 'https://developers-emergency-kit.vercel.app/',
     image: '/images/devkit.jpg',
   },
  
