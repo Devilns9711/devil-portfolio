@@ -60,7 +60,7 @@ function Contact() {
         <div className="contact__socials">
           <a href="mailto:ns0012515@gmail.com" className="pencil-link">Email</a>
           <a href="https://github.com/devilns9711" className="pencil-link" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="#" className="pencil-link" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/nirmal-singh-6207a4412?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="pencil-link" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://instagram.com/devilns9711" className="pencil-link" target="_blank" rel="noreferrer">Instagram</a>
         </div>
       </div>
