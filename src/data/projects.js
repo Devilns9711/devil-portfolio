@@ -22,20 +22,8 @@ const projects = [
     demo: 'https://developers-emergency-kit.vercel.app/',
     image: '/images/devkit.jpg',
   },
- 
-  {
+ {
     id: 'project-3',
-    title: 'File Management System',
-    tagline: 'A powerful command-line file manager built with Python.',
-    description:
-      'A menu-driven Python application for efficient text file management with features like create, edit, search, rename, copy, and file statistics.',
-    stack: ['Python', 'File Handling', 'Datetime','CLI (Command Line Interface)'],
-    github: 'https://github.com/Devilns9711/FILE-MANAGEMENT-SYSTEM.git',
-    demo: '',
-    image: '/images/File-Management-System.jpg',
-  },
-   {
-    id: 'project-4',
     title: 'ResumeCraft',
     tagline: 'Build professional resumes in minutes with ease.',
     description:
@@ -45,6 +33,18 @@ const projects = [
     demo: 'https://resume-craft-one-chi.vercel.app/',
     image: '/images/resumecraft.jpg',
   },
+  {
+    id: 'project-4',
+    title: 'File Management System',
+    tagline: 'A powerful command-line file manager built with Python.',
+    description:
+      'A menu-driven Python application for efficient text file management with features like create, edit, search, rename, copy, and file statistics.',
+    stack: ['Python', 'File Handling', 'Datetime','CLI (Command Line Interface)'],
+    github: 'https://github.com/Devilns9711/FILE-MANAGEMENT-SYSTEM.git',
+    demo: '',
+    image: '/images/File-Management-System.jpg',
+  },
+   
   
 ]
 
