@@ -15,7 +15,7 @@ function About() {
           <div className="about__text">
             <h2>A bit about me</h2>
             <p>
-              I'm Devil, a BCA student at Maa Pateshwari University, Balrampur, with a strong interest in web development and programming. I enjoy building responsive websites, learning modern technologies, and strengthening my skills in HTML, CSS, JavaScript, React, Python, C, and C++ through hands-on projects and continuous practice.
+              I'm Nirmal, a BCA student at Maa Pateshwari University, Balrampur, with a strong interest in web development and programming. I enjoy building responsive websites, learning modern technologies, and strengthening my skills in HTML, CSS, JavaScript, React, Python, C, and C++ through hands-on projects and continuous practice.
             </p>
             <p>
               Beyond coding, I enjoy gaming, graphic design, and exploring AI tools and new technologies. I'm always looking for opportunities to learn, collaborate, and work on projects that challenge me to grow as a developer while creating useful and engaging digital experiences.
