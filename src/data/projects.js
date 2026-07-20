@@ -16,7 +16,7 @@ const projects = [
     title: 'DevKit',
     tagline: 'Developer\'s Emergency Kit',
     description:
-      'The Ultimate Toolkit Every Developer Needs. 8 essential tools, zero dependencies, lightning fast.',
+      'The Ultimate Toolkit Every Developer Needs. 18 essential tools, zero dependencies, lightning fast.',
     stack: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/devilns9711/developers-emergency-kit.git',
     demo: 'https://developers-emergency-kit.vercel.app/',
